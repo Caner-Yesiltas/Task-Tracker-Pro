@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+<div align="center">
+  <h2>
+    👉 <a href="https://task-tracker-pro-dusky.vercel.app/">Live Demo</a> 👈
+  </h2>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="/assets/Task-Tracker-Pro.gif" alt="Task Tracker Pro Demo" width="800"/>
+</div>
 
-## Available Scripts
+## 📌 About The Project
 
-In the project directory, you can run:
+Task Tracker Pro is a modern task management application built with React and TypeScript. It features a sleek user interface with a dynamic background and intuitive task management system. Users can add tasks with deadlines and track their progress efficiently.
 
-### `yarn start`
+### ✨ Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎯 Create and manage tasks with deadlines
+- ⏰ Set working days for each task
+- 🗑️ Delete tasks by name
+- 💅 Modern UI with gradient effects
+- 📱 Fully responsive design
+- 🌓 Dynamic background
+- 🔍 Type-safe implementation with TypeScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛠️ Built With
 
-### `yarn test`
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `yarn build`
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/task-tracker-pro.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Navigate to project directory
+cd task-tracker-pro
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+yarn install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start the development server
+yarn start
+```
 
-### `yarn eject`
+## 💻 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/
+│   └── TodoItem/        # Task item component
+├── styles/
+│   └── App.css         # Main styling
+├── types/
+│   └── apptypes.ts     # TypeScript interfaces
+├── App.tsx             # Main application component
+└── index.tsx           # Entry point
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔍 Core Functionality
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Task Creation**: Users can create tasks with descriptions and deadlines
+- **Deadline Setting**: Each task can be assigned a number of working days
+- **Task Management**: Delete tasks by their names
+- **Type Safety**: Full TypeScript implementation for robust code
+- **Responsive Design**: Works seamlessly on all device sizes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎯 Component Details
 
-## Learn More
+### App Component
+- Manages main state with TypeScript generics
+- Handles task creation and deletion
+- Implements responsive layout
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### TodoItem Component
+- Displays individual task information
+- Handles task deletion by name
+- Implements gradient background effects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📱 Responsive Design
 
-### Code Splitting
+- Fluid layouts for all screen sizes
+- Mobile-first approach
+- Flexible input and button positioning
+- Responsive task cards
+- Adaptive typography
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 License
 
-### Making a Progressive Web App
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📫 Contact
 
-### Advanced Configuration
+Caner Yesiltas - caneryesiltas1@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Project Link: [https://task-tracker-pro-dusky.vercel.app/](https://task-tracker-pro-dusky.vercel.app/)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  Made with ❤️ by Caner Yesiltas
+</div>
