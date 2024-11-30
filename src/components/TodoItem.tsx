@@ -8,12 +8,12 @@ type PropsType ={
 
 
 
-const TodoItem = ({task, deleteTask} :PropsType ) => {
+const TodoItem = ({task, deleteTask, } :PropsType ) => {
   return (
-    <div>
+    <div className='List'>
       <p>{task.task}</p>
       <p>{task.workDay}</p>
-      <button onClick={()=>deleteTask(task.task)}  >Do it! </button>
+      <button onClick={()=>deleteTask(task.task)}  >Ready </button>
     </div>
   )
 }

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+    background-image: url(/assets/the-seven-the-boys-season-2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    padding-top: 20vh;
+    
+}
+ 
+ .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 90%; 
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+ }
+ 
+ .App, h1{
+padding-bottom: 1.25rem;
+color: rgb(192, 68, 68);
+ }
+ 
+ .App > div {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap; 
+ }
+ 
+ input {
+    flex: 1;
+    min-width: 200px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }
+ 
+ button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap; 
+ 
+ }
+ .List {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding: 10px;
+    margin: 10px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(128, 123, 214) 0%, rgba(215,0,23,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 1.875rem;
+ }
+ .List p {
+    margin-right: 15px; 
+    color: rgb(199, 154, 8);
+font-weight: bold;
+ }
+ 
+ .List button {
+    padding: 8px 16px;
+    margin-left: auto; 
+    background: #000507;
+    color: rgb(74, 153, 206);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+.App button:hover {
+    background: #0056b3; 
+    transition: background-color 0.3s ease;
+ }
+ 
+ 
+ .List button:hover {
+    background: #001e2b; 
+    color: rgb(118, 183, 228); 
+    transition: all 0.3s ease;
+ }
+ 
+ 
+ @media (max-width: 600px) {
+    .App > div {
+        flex-direction: column;
+    }
+    
+    input, button {
+        width: 100%;
+    }
+ }

@@ -17,10 +17,19 @@ const App = () => {
     }
    
   };
+ 
+  const deleteTask = (nametoDelete:string):void =>{
+    setTodoList(todoList.filter((task)=> {
+      return task.task !== nametoDelete;
+
+    }))
+
+  }
 
   const addNewTask = () : void  => {
     const newTask = {
-      task:task, workDay:workDay
+      task:task, 
+      workDay:workDay
   }
   setTodoList([...todoList, newTask]);
   setTask('');
@@ -30,7 +39,9 @@ const App = () => {
 
   return (
     <div className='App'>
-      <div> 
+         <h1>Task Tracker Pro</h1>
+      <div className="maincard" > 
+     
       <input
         type='text'
         value={task}
@@ -49,7 +60,7 @@ const App = () => {
       </div>
       <div>
         {todoList.map((task: todoType , index: number) =>{
-          return <TodoItem  key={index} task={task} />
+          return <TodoItem  key={index} task={task} deleteTask={deleteTask} />
 
         })}
       </div>
