@@ -1,0 +1,2 @@
+echo *.ts linguist-language=TypeScript > .gitattributes
+echo *.tsx linguist-language=TypeScript >> .gitattributes
