@@ -32,7 +32,7 @@ Task Tracker Pro is a modern task management application built with React and Ty
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/task-tracker-pro.git
+git clone https://github.com/caneryesiltas/task-tracker-pro.git
 
 # Navigate to project directory
 cd task-tracker-pro
