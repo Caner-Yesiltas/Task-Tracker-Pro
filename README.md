@@ -1,4 +1,11 @@
 <div align="center">
+ <h1> 
+# Task Tracker Pro 🧭
+ </h1>
+</div>
+
+
+<div align="center">
   <h2>
     👉 <a href="https://task-tracker-pro-dusky.vercel.app/">Live Demo</a> 👈
   </h2>
