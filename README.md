@@ -110,5 +110,5 @@ Project Link: [https://task-tracker-pro-dusky.vercel.app/](https://task-tracker-
 ---
 
 <div align="center">
-  Made with ❤️ by Caner Yesiltas
+  Made with by Caner Yesiltas
 </div>
