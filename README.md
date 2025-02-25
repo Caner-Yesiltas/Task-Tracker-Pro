@@ -1,6 +1,6 @@
 <div align="center">
  <h1> 
-# Task Tracker Pro 🧭
+# Task Tracker Pro 💾
  </h1>
 </div>
 
@@ -110,5 +110,5 @@ Project Link: [https://task-tracker-pro-dusky.vercel.app/](https://task-tracker-
 ---
 
 <div align="center">
-  Made with by Caner Yesiltas
+  Made with 💾 by Caner Yesiltas
 </div>
